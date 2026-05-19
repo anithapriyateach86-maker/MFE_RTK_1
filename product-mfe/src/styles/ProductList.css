@@ -1,0 +1,31 @@
+.container { max-width: 1400px; margin: 0 auto; padding: 0 20px; }
+    .products-section {
+      background: rgba(255, 255, 255, 0.95); border-radius: 20px;
+      padding: 2rem; margin: 2rem 0; box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+    }
+    .category-filter { display: flex; gap: 1rem; margin-bottom: 2rem; flex-wrap: wrap; }
+    .category-btn {
+      padding: 0.7rem 1.5rem; border: 2px solid #667eea; background: white;
+      color: #667eea; border-radius: 25px; cursor: pointer;
+      transition: all 0.3s ease; font-weight: 500;
+    }
+    .category-btn:hover, .category-btn.active {
+      background: linear-gradient(45deg, #667eea, #764ba2); color: white;
+      transform: translateY(-2px); box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+    }
+    .products-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+    .loading {
+      text-align: center; padding: 5rem 0; color: white;
+      display: flex; flex-direction: column; align-items: center;
+    }
+    .loader {
+      border: 4px solid rgba(255, 255, 255, 0.3);
+      border-top: 4px solid white; border-radius: 50%;
+      width: 40px; height: 40px; animation: spin 1s linear infinite;
+      margin-bottom: 1rem;
+    }
+    @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+    .no-products { text-align: center; padding: 3rem 0; color: #666; }	 	  	      	 	    	    	    	    	 	

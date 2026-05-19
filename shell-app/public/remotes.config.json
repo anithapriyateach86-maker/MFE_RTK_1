@@ -1,0 +1,7 @@
+{ 
+  "cartApp":    "http://localhost:4202/remoteEntry.js",
+  "productApp": "http://localhost:4201/remoteEntry.js",
+   "offersApp":  "http://localhost:4203/remoteEntry.js",
+  "ordersApp":  "http://localhost:4204/remoteEntry.js",
+  "profileApp": "http://localhost:4206/remoteEntry.js"
+}

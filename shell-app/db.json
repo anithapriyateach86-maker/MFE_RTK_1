@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "userId": "user_001",
+      "name": "John Doe",
+      "email": "john@fashionhub.com",
+      "password": "john123",
+      "token": "mock-token-001",
+      "phone": "+1 234 567 8901",
+      "address": "123 Fashion St, New York"
+    },
+    {
+      "id": "2",
+      "userId": "user_002",
+      "name": "Jane Doe",
+      "email": "jane@fashionhub.com",
+      "password": "jane123",
+      "token": "mock-token-002",
+      "phone": "+1 987 654 3210",
+      "address": "456 Style Ave, Los Angeles"
+    }
+  ],
+  "orders": [],
+  "wishlist": [
+    {
+      "productId": 2,
+      "title": "Mens Casual Premium Slim Fit T-Shirts ",
+      "price": 22.3,
+      "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&h=500&fit=crop",
+      "category": "men's clothing",
+      "userId": "user_001",
+      "id": "ZpNqXrPaujM"
+    },
+    {
+      "productId": 2,
+      "title": "Mens Casual Premium Slim Fit T-Shirts ",
+      "price": 22.3,
+      "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&h=500&fit=crop",
+      "category": "men's clothing",
+      "userId": "user_002",
+      "id": "SsX-5zrWUus"
+    },
+    {	 	  	      	 	    	    	    	    	 	
+      "productId": 16,
+      "title": "Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket",
+      "price": 29.95,
+      "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&h=500&fit=crop",
+      "category": "women's clothing",
+      "userId": "user_002",
+      "id": "i8Uc2C-DitE"
+    },
+    {
+      "productId": 4,
+      "title": "Mens Casual Slim Fit",
+      "price": 15.99,
+      "image": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=400&h=500&fit=crop",
+      "category": "men's clothing",
+      "userId": "user_002",
+      "id": "H34Zu6Mwlsk"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
